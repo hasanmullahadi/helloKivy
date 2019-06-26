@@ -9,9 +9,9 @@ from kivy.app import App
 
 from kivy.uix.button import Label
 
-class HelloKivy(App):
+class HelloKivyApp(App):
     def build(self):
-        return Label(text = "Hello there Kivy")
+        return Label()
 
 
 
@@ -21,7 +21,7 @@ class HelloKivy(App):
 
 def main():
 
-    hellokivy = HelloKivy()
+    hellokivy = HelloKivyApp()
     hellokivy.run()
 
 
